@@ -62,7 +62,8 @@ module.exports = {
       'singleQuote': true,
       'trailingComma': 'all',
       'jsxBracketSameLine': false,
-      'arrowParens': 'always'
+      'arrowParens': 'always',
+      "endOfLine": "auto"
     }],
     'import/no-unresolved': 'off',
     // Allows: snake_case, kebab-case, with .d, .test, .stories, or .config
@@ -112,7 +113,7 @@ module.exports = {
       },
     ],
     'import/order': 'off',
-    'import/extensions': ['error', 'never', {ignorePackages: true}],
+    'import/extensions': ['error', 'never', { ignorePackages: true }],
   },
   parserOptions: {
     ecmaFeatures: {
