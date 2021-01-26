@@ -47,6 +47,10 @@ export const colors = {
   // pink
   pink: '#E35298',
   pink_3: '#FF7A7A',
+  // pure white
+  pure_white: '#FFFFFF',
+  // medium_gray
+  medium_gray: '#E5E5E5',
   // new colors
   text_default: newColors.steel[400],
   text_placeholder: newColors.steel[300],
